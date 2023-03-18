@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hackathon Management System</title>
+</head>
+<body>
+    <div class="wrapper grid">
+        <div class="greeting">
+            <h1 class="font-medium float-right text-4xl mt-8 mr-8">Hi,{userName}👋</h1>
+        </div>
+        <div class="upcomingEvents mt-7 ml-14">
+            <div class="heading"><h1 class="text-2xl">eventName</h1></div>
+            <div class="searchBar flex mt-10">
+                <input type="search" name="eventSearch" placeholder="Search"><input type="image" height=15vh src="/res/images/pngwing.com.png">
+            </div>
+            <div class="events grid grid-flow-col mt-10">
+                <a class="event1 bg-yellow h-36 rounded-lg m-2 min-w-max" href="#">Ticket Solving</a>
+                <a class="event2 bg-green h-36 rounded-lg m-2" href="#">Judging</a>
+                <a class="event3 bg-blue h-36 rounded-lg m-2" href="#">Participant List</a>
+            </div>
+            <div class="justify-center">
+            <button class="bg-red text-white ml-36 mt-36 p-1 w-28 rounded-md">Edit Event</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
